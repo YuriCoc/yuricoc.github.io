@@ -1,0 +1,360 @@
+.help-box {
+    display: inline-block;
+    float: right;
+}
+.navbar-header>div.container {
+      padding: 50px 0;
+}
+
+@media screen and (max-width:767px){
+  .help-box a {
+    font-size: 18px !important;
+  }
+  .navbar-brand img {
+    width: 100%;
+}
+p.navbar-brand {
+  width: 150px;
+}
+.col-9 {
+  float:none;
+  margin:0 auto
+}
+}
+
+form.example {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.modal-content.example {
+    border: none;
+    border-radius: 0;
+}
+
+button.feedback {
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 0;
+    padding: 8px 20px;
+    margin: 20px 0;
+}
+
+.form-control {
+    border-radius: 0;
+  }
+.form-control.error {
+  box-shadow: inset 0 0 1em #ed6868;
+}
+input[type="email"]::-webkit-input-placeholder { color: #ed6868;font-style: italic; }
+   input[type="email"]:-ms-input-placeholder { color: #ed6868;font-style: italic; }
+   input[type="email"]::-ms-input-placeholder { color: #ed6868;font-style: italic; }
+   input[type="email"]::placeholder { color: #ed6868;font-style: italic; }
+
+h5.modal-title {
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #3e3e3e;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.modal-header {
+
+    border-bottom: none;
+}
+div.textfish {
+  padding-bottom: 50px;
+}
+
+.textfish p {
+  font-size: 14px
+}
+
+@media screen and (min-width:980px){
+.navbar-collapse.collapse {
+display: block!important;
+height: auto!important;
+padding-bottom: 0;
+overflow: visible!important;
+}
+.navbar-toggler{
+display:none;
+}
+}
+
+.container {
+    max-width: 980px;
+}
+
+#main a.nav-link {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#main a.nav-link:hover {
+    text-decoration: underline;
+}
+#main a.nav-link.active {
+    text-decoration: underline;
+}
+
+.btn-link {
+  text-decoration: underline;
+  color: #777777;
+}
+button.btn-link:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+.col-9 {
+    -ms-flex: 0 0 78%;
+    flex: 0 0 78%;
+    max-width: 78%;
+}
+
+.col-3 {
+    -ms-flex: 0 0 22%;
+    flex: 0 0 22%;
+    max-width: 22%;
+}
+
+hr {
+  color: #000;
+}
+
+.help-box a {
+  color: #777;
+  font-size: 26px;
+}
+
+.help-box a:hover {
+  text-decoration: none;
+}
+
+.carousel .carousel-item img {
+  max-height: 400px;
+  min-width: auto;
+  max-width: 1248px;
+  min-width: auto;
+}
+.carousel-control-next-icon {
+  background-image: url(http://euroconveyor.ru/wp-content/uploads/next.png);
+}
+.carousel-control-prev-icon {
+  background-image: url(http://euroconveyor.ru/wp-content/uploads/prev.png);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 34px;
+    height: 61px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+}
+nav.navbar.nav.justify-content-center {
+    padding: 12.5px;
+}
+
+.excel {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.excel-link {
+  text-align: center;
+}
+
+li.excel-link a{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  color: #383838;
+}
+li.excel-link a:hover {
+  text-decoration: none;
+}
+
+.product-wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+}
+
+@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 33.333%;
+	}
+}
+
+.product {
+	display: block;
+	position: relative;
+	background: #dbdbdb;
+	margin: 0 15px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 380px;
+}
+.product-info {
+  padding: 20px;
+}
+
+.product-info img {
+  max-width: 100%;
+  transition: transform .4s ease-out;
+}
+.product-info-photo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.product-info-photo img{
+transition: transform .4s ease-out;
+cursor: pointer;
+}
+.price {
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  line-height: 22px;
+  margin: 0;
+}
+.product-info-cart {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.products {
+	list-style: none;
+	margin: 0 -15px 0 0;
+	padding: 0;
+}
+
+.product:hover .product-info-photo img {
+	transform: scale(1.05);
+}
+
+.page-footer {
+  background-color: #777777;
+}
+
+.breadcrumb {
+    padding: 5px 15px !important;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+li.breadcrumb-item a {
+    color: #878787;
+    text-decoration: underline;
+}
+li.breadcrumb-item a:hover {
+    text-decoration: none;
+}
+
+li.breadcrumb-item.active {
+    color: #878787;
+}
+
+#sidebar {
+  padding-top: 0 !important;
+}
+
+#sidebar a.nav-link {
+    color: #757575;
+    padding: 5px 15px;
+}
+
+#sidebar a.nav-link.collapsed {
+    text-decoration: underline;
+}
+#sidebar a.nav-link:hover {
+    text-decoration: underline;
+}
+
+div#sidebar>ul>li>div>ul>li.nav-item.active {
+
+}
+
+div#sidebar>ul>li>div>ul>li.nav-item.active>a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: underline;
+}
+div#sidebar>ul>li>div>ul>li>a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+div#sidebar>ul>li>div>ul>li>a.nav-link {
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: 0;
+    line-height: 1.25;
+    color: #8e8e8e;
+    background-color: transparent;
+    border: none;
+}
+
+.pagination-sm .page-link {
+    padding: 5px 10px;
+  }
+
+  .page-item.active .page-link {
+    z-index: 1;
+    font-size: 20px;
+    color: #505050;
+    margin-top: -6px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #4e4e4e;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+footer p, footer a {
+  color: #fff;
+
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
